@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM CELL</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Nerko+One&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+
+            font-family: "Protest Guerrilla", sans-serif;
+            padding: 0px;
+            background: url('https://thumbs.dreamstime.com/z/closeup-portrait-muscular-man-workout-barbell-gym-brutal-bodybuilder-athletic-six-pack-perfect-abs-shoulders-55122231.jpg?ct=jpeg');
+            color: white;
+
+
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            font-size: 15px;
+            top: 20px;
+            line-height: 0px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 70px;
+            /* filter: invert(); */
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            background-color: rgb(117, 109, 125);
+            width: 37%;
+            /* border: 2px solid rgb(234 235 28); */
+            margin: 30px auto;
+            border-radius: 4px;
+
+
+        }
+
+        .right {
+            /* border: 2px solid rgb(57, 223, 82); */
+            position: absolute;
+            right: 34px;
+            top: 30px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 24px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            font-family: "Protest Guerrilla", sans-serif;
+            padding: 6px 8px;
+            border: 2px solid rgb(139, 128, 128);
+            border-radius: 10px;
+            cursor: pointer;
+            font: 20px;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            border: 2px solid rgb(250, 250, 253);
+            margin: 91px 304px;
+            padding: 56px 56px;
+            width: 38%;
+            background-image: url('https://as2.ftcdn.net/v2/jpg/00/99/82/15/1000_F_99821575_nVEHTBXzUnTcLIKN6yOymAWAnFwEybGb.jpg');
+            text-align: center;
+            border-radius: 13px;
+        }
+
+        .container button {
+            width: 329px;
+            border-radius: 6px;
+            display: block;
+            margin: 20px auto;
+        }
+        
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            border-radius: 6px;
+            width: 315px;
+            padding: 9px;
+            font-family: "Protest Guerrilla", sans-serif;
+            font-size: 12px;
+            font-family: ;
+            border: 2px solid black;
+            margin: 11px auto;
+
+        }
+    </style>
+    <script src=""></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://marketplace.canva.com/EAFzZ-ml0FE/1/0/1200w/canva-black-white-and-yellow-bold-fitness-logo-BWs_SrvhEkc.png"
+                alt="">
+            <div>Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="normal.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+
+</html>
